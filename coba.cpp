@@ -28,4 +28,22 @@ cout << "=================" << endl;
 for (int i = 0; i < n; i++) // menggunakan perulangan for untuk menyimpan data pada array
 {
     cout << "Data ke-" << (i + 1) << ": "; // memasukkan atau menginputkan nilai data n
+    cin >> arr[i];                         // menyimpan nilai data n kedalam array arr
+}
+}
+
+void insertionSort()
+{ // Procedure Insertionsort
+
+    int temp; // membuat variable data temporer atau penyimpanan sementara
+    int j, i; // membuat variable j sebagai penanda
+
+    for (i = 1; i <= n; i++)
+    {
+        // step 1
+        temp = arr[i]; // step 2
+        j = i - 1;     // step 3
+
+        while (j >= 0 && arr[j] > temp) // step 4
+    }
 }
